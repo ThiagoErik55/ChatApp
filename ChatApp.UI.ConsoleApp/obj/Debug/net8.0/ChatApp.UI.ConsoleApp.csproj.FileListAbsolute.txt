@@ -1,0 +1,5 @@
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.UI.ConsoleApp\obj\Debug\net8.0\ChatApp.UI.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.UI.ConsoleApp\obj\Debug\net8.0\ChatApp.UI.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.UI.ConsoleApp\obj\Debug\net8.0\ChatApp.UI.ConsoleApp.AssemblyInfo.cs
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.UI.ConsoleApp\obj\Debug\net8.0\ChatApp.UI.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Thiag\OneDrive\Área de Trabalho\ChatApp\ChatApp.UI.ConsoleApp\obj\Debug\net8.0\ChatApp.UI.ConsoleApp.sourcelink.json
