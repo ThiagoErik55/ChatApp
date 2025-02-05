@@ -1,3 +1,4 @@
+using ChatApp.Model.Messages;
 using ChatApp.Model.Users;
 
 namespace ChatApp.Model.Conversations

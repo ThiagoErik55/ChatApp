@@ -11,12 +11,12 @@ namespace ChatApp.Business.Services
 
         public Usuario AutenticarUsuario(string email, string senha)
         {
-            return usuarios.FirstOrDefault(u => u.Email == email && u.Senha == senha);
+            return usuarios.FirstOrDefault(u => u.Email == email && u.SenhaHash == senha);
         }
 
         public void AtualizarStatusUsuario(int usuarioId, StatusUsuario status)
         {
-            var usuario = usuarios.FirstOrDefault(u => u.UsuarioId == usuarioId);
+            var usuario = usuarios.FirstOrDefault(u => u.Id == usuarioId);
             if (usuario != null)
             {
                 usuario.AtualizarStatus(status);
@@ -27,5 +27,11 @@ namespace ChatApp.Business.Services
         {
             usuarios.Add(usuario);
         }
+
+        public int ObterTotalUsuarios()
+        {
+            return usuarios.Count;
+        }
+
     }
 }

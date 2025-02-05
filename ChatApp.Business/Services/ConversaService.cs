@@ -1,3 +1,7 @@
+using ChatApp.Model.Conversations;
+using ChatApp.Model.Users;
+using ChatApp.Model.Messages;
+
 namespace ChatApp.Business.Services;
 
 public class ConversaService

@@ -11,7 +11,7 @@ public class MensagemService
 
     public void EnviarMensagem(Usuario remetente, int conversaId, string conteudo)
     {
-        var novaMensagem = new MensagemService(mensagens.Count + 1, conteudo, DateTime.now, remetente, false);
+        var novaMensagem = new Mensagem(mensagens.Count + 1, conteudo, DateTime.Now, remetente, false);
         mensagens.Add(novaMensagem);
     }
 
