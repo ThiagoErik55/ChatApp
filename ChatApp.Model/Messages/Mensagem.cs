@@ -11,14 +11,14 @@ namespace ChatApp.Model.Messages
         public bool Visualizada { get; set; }
         public int? RespostaId { get; }
 
-        public Mensagem(int id, string conteudo, DateTime dataEnvio, Usuario remetente, bool visualizada, int? respostaId = null)
+        public Mensagem() { }
+        
+        public Mensagem(string conteudo, Usuario remetente)
         {
-            Id = id;
             Conteudo = conteudo;
-            DataEnvio = dataEnvio;
             Remetente = remetente;
-            Visualizada = visualizada;
-            RespostaId = respostaId;
+            DataEnvio = DateTime.Now;
+            Visualizada = false;
         }
     }
 }

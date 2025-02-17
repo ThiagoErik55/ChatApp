@@ -10,12 +10,12 @@ namespace ChatApp.Model.Conversations
         public List<Mensagem> Mensagens { get; set; }
         public DateTime DataUltimaMensagem { get; }
 
-        public Conversa(int conversaId, List<Usuario> participantes, List<Mensagem> mensagens, DateTime dataUltimaMensagem)
+        public Conversa(){ }
+
+        public Conversa(List<Usuario> participantes)
         {
-            ConversaId = conversaId;
             Participantes = participantes;
-            Mensagens = mensagens;
-            DataUltimaMensagem = dataUltimaMensagem;
+            DataUltimaMensagem = DateTime.Now;
         }
     }
 }

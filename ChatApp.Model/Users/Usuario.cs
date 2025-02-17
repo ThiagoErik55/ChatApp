@@ -10,6 +10,8 @@ public class Usuario
     public string SenhaHash { get; private set; }  
     public StatusUsuario Status { get; private set; } 
 
+    public Usuario(){ }
+
     public Usuario(int id, string nome, string email, string senhaHash, StatusUsuario status)
     {
         Id = id;
